@@ -1,0 +1,30 @@
+<!-- encabezado -->
+<ion-header>
+  <!-- toolbar -->
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <!-- <ion-button (click)="toggleMenu()">
+        <ion-icon slot="icon-only" name="menu"></ion-icon>
+      </ion-button> -->
+      <ion-menu-button color="primary" menu="primerMenu"></ion-menu-button>
+    </ion-buttons>
+    <!-- titulo -->
+    <ion-title color="primary" >Componentes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<!-- codigo de pagina -->
+<ion-content >
+
+  <ion-list>
+    <ion-item *ngFor="let c of componentes | async " [routerLink]="c.redirectTo" detail>
+      <ion-icon slot="start" color="primary" [name]="c.icon"></ion-icon>
+      <ion-label>{{c.name}}</ion-label>
+    </ion-item>
+  </ion-list>
+
+
+  
+
+</ion-content>

@@ -1,0 +1,30 @@
+[
+    {
+        "superhero":"Batman",
+        "publisher":"DC Comics",
+        "alter_ego":"Bruce Wayne",
+        "first_appearance":"Detective Comics #27",
+        "characters":"Bruce Wayne"
+    },
+    {
+        "superhero":"Capitan America",
+        "publisher":"Marvel Comics",
+        "alter_ego":"Steve Rogers",
+        "first_appearance":"Capitan de las americas Comics #27",
+        "characters":"Steve Rogers"
+    },
+    {
+        "superhero":"Superman",
+        "publisher":"DC Comics",
+        "alter_ego":"Clark Kent",
+        "first_appearance":"Superheroe del universo Comics #27",
+        "characters":"Clark Kent"
+    },
+    {
+        "superhero":"Iron Man",
+        "publisher":"Marvel Comics",
+        "alter_ego":"Tony Starts",
+        "first_appearance":"Rico Comics #27",
+        "characters":"Tony Starts"
+    }
+]
